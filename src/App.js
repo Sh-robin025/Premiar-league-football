@@ -6,6 +6,7 @@ import Footer from './Components/Footer/Footer';
 import errorImg from './images/notFound.png'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './Components/Home';
+import TeamDetails from './Components/Body/TeamDetails';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route path="/:team/:teamId">
+          <TeamDetails />
         </Route>
         <Route path="*">
           <div className="text-center">

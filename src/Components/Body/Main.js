@@ -22,10 +22,12 @@ const Main = () => {
     return (
         <div>
             <CarouselSlider index={index} eventHandler={handleSelect} />
-            <div className="container p-3 club">
-                {
-                    club.map(item => <Clubs key={item.idTeam} data={item} />)
-                }
+            <div className="container p-3">
+                <div className="row gx-5">
+                    {
+                        club.map(item => <Clubs key={item.idTeam} data={item} />)
+                    }
+                </div>
             </div>
             <Sponsor />
         </div>
