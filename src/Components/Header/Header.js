@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import logo from '../../images/logo.png'
-import { Button, Container, Form, FormControl, Navbar } from 'react-bootstrap';
+import { Container, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFutbol } from '@fortawesome/free-solid-svg-icons';
