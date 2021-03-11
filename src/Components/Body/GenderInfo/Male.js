@@ -8,7 +8,7 @@ const Male = (props) => {
 
     return (
         <div className="text-light p-4 core-data row justify-content-between">
-            <div className="col">
+            <div className="col-md-6">
                 <h2>{strTeam}</h2>
                 <br />
                 <h6>
