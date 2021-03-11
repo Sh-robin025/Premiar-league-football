@@ -75,3 +75,8 @@ p{
   color: #fff;
 }
 
+@media(max-width: 320px){
+  .core-data img{
+    width: 300px;
+  }
+}
